@@ -1,0 +1,75 @@
+/* Стили для главной страницы городского портала */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.latest-issues {
+    margin-top: 20px;
+}
+
+.issue {
+    display: flex;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.issue img {
+    width: 150px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.issue-details {
+    flex: 1;
+}
+
+.timestamp {
+    font-style: italic;
+    margin: 5px 0;
+}
+
+.title {
+    margin: 5px 0;
+}
+
+.category {
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.menu {
+    margin: 0;
+    list-style: none;
+    border: solid 1px #e5e5e5;
+    padding: 10px 15px;
+    width: 150px;
+    background: #f5f5f5;
+}
+
+.menu li {
+    margin-bottom: 8px;
+    display: inline-block;
+}
+
+.menu a {
+    color: #0088cc;
+}
